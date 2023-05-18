@@ -53,46 +53,66 @@
     <main >
  
       <section class="backdrop is-hidden" data-modal> <!---->
-          <form  action="" class="modal">
-            <button class="positionX" data-modal-close type="button">X</button>
-
-            <!-- <label  for="name">Name
-              <input class="modal-form__input" 
-              id="name" 
-              type="text" 
-              autofocus
-              >
-            </label>
-
-            <label  for="name"> Telefono
-              <input class="modal-form__input" id="name" type="tel"
-              >
-            </label>
-
-            <label  for="name">E-mail
-              <input class="modal-form__input" id="name" type="email"
-              >
-            </label>
-
-            <label  for="name">Comentarios
-             <textarea  class="modal-form__input" 
-              name="" id="" cols="30" rows="10" 
-              placeholder="Introduzca el texto.">
+         
 
 
-             </textarea>
+
+ <div class="modal">
+
+              <button class="positionX" data-modal-close type="button">X</button>
+
+              <h3 class="title-h3">Deje sus datos, nos contactaremos con usted</h3>
+<form action="">
+
+  <label class="form-label" for="input_name">Nombre</label>
+  <div class="modal-form__input__group">
+                <input class="modal-form__input" 
+                name="name"
+                id="input_name" 
+                type="text" 
+                autofocus
+                >
+               <svg class="modal-form-svg">
+                <use href="./images/sprite.svg#icon-user">
+
+                </use>
+               </svg>
               
-            </label>
+  </div>
+              <label class="form-label" for="input-phone"> Telefono  </label>
+              <div class="modal-form__input__group">  
+                  <input class="modal-form__input" id="input-phone" type="tel">
+                    <svg class="modal-form-svg">
+                      <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg>
+              </div>
 
-            <label  for="name">
-              <input class="modal-form__input" id="name" type="checkbox"
-              >Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
-            </label>
- -->
+              <label class="form-label" for="input-email">E-mail </label>
+                <div class="modal-form__input__group">  
+                  <input class="modal-form__input" id="input-email" type="email">
+                  <svg class="modal-form-svg">
+                    <use href="./images/sprite.svg#icon-email"></use>
+                  </svg>
+                </div>
+
+              <label class="form-label" for="">Comentarios  
+              <textarea  class="modal-form__commit " name="" rows="" cols="" 
+               placeholder="Introduzca el texto.">
+              </textarea></label>   
+            
+
+              <label class="form-labe check"> 
+                <input class="modal-form-check"  type="checkbox">
+                <span class="check__box"></span>
+                Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+              </label>
 
 
+<button class="form-button-submit" type="submit">Enviar</button>
 
-          </form>
+            </form>
+
+            </div>
       </section>
 
 
