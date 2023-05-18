@@ -238,16 +238,10 @@ margin-bottom:12px;
 color: #212121;
 
 }
-.modal-form__input{
-  display: block;
-width:100%;
-  height: 35px ;
-  padding-left: 40px;
-  cursor: pointer;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  outline:none;
-}
+
+
+
+
 
 .modal-form__commit{
   outline:none;
@@ -318,28 +312,36 @@ position: absolute;
   height: 15px;
 }
 
-
 .check{
  display: block;
 padding-left: 30px;
 margin-top: 20px;
 }
+
 .form-label{
   color: #757575;
- 
-}
-.modal-form__input:hover,
-.modal-form__input:focus {
+ }
 
-  border: 1px solid #2196F3;
-
-
-}
 .modal-form__input__group{
 margin-bottom: 10px;
   position:relative;
   cursor: pointer;
-  
+  }
+
+  .modal-form__input{
+    display: block;
+  width:100%;
+    height: 35px ;
+    padding-left: 40px;
+    cursor: pointer;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline:none;
+  }
+
+.modal-form__input:hover,
+.modal-form__input:focus {
+  border: 1px solid #2196F3;
 }
 
 .modal-form-svg{
@@ -352,11 +354,8 @@ position:absolute;
 }
 
 .modal-form__input:hover + .modal-form-svg,
-.modal-form__input:focus + .modal-form-svg
-{
-
+.modal-form__input:focus + .modal-form-svg{
 fill:#2196F3;
-
 }
 
 
