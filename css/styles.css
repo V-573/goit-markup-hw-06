@@ -284,6 +284,9 @@ position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
+   background-color:var(--color--blue);
+  width: 16px;
+  height: 15px;
 }
 .check__box {
   position: absolute;
@@ -299,17 +302,13 @@ position: absolute;
   box-shadow: 0 0 0 0.1em #212121;
 }
 
-.modal-form-check{
-  background-color:var(--color--blue);
-  width: 16px;
-  height: 15px;
-}
+
 .modal-form-check:checked + .check__box {
  
   background-image: url(../images/checkbox.svg);
   box-shadow: 0 0 0 0.1em var(--color--blue);
-  width: 16px;
-  height: 15px;
+  width: 12PX;
+  height: 11px;
 }
 
 .check{
